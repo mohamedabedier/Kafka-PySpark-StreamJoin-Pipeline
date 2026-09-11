@@ -1,0 +1,2 @@
+v1
+{"path":"hdfs://localhost:9000/user/student/streaming2/final/data/part-00000-63a2a667-93eb-4448-876f-84ac6977d778-c000.snappy.parquet","size":1728,"isDir":false,"modificationTime":1789106170205,"blockReplication":1,"blockSize":134217728,"action":"add"}
