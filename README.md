@@ -8,10 +8,8 @@ A fault-tolerant, real-time data pipeline that ingests live order and payment ev
 Python · Apache Kafka · Apache Spark (Structured Streaming) · HDFS · Apache Hive
 
 ## 🏗️ Architecture
-
-```
-Producer (Python)  →  Kafka (2 topics)  →  Spark Structured Streaming  →  HDFS (Parquet)  →  Hive External Table
-```
+ 
+![Architecture Diagram](images/architecture.svg)
 
 - **Producer**: simulates live order and payment events and publishes them to Kafka
 - **Kafka**: buffers two topics — `stream_orders` and `stream_payments`
